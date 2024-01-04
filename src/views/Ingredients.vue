@@ -16,7 +16,7 @@ import axiosClient from '../../axiosClient';
 const keyword = ref('')
 const ingredients = ref([])
 const computedIngredients = computed(()=>{
-    return ingredients.value.filter(ingredient=>ingredient.strIngredient.toLowerCase().includes(keyword.value.toLowerCase()))
+    return ingredients.value.filter(i=>i.strIngredient.toLowerCase().includes(keyword.value.toLowerCase()))
 })
 onMounted(()=>{
     axiosClient.get('list.php?i=list')
