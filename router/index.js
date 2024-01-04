@@ -18,6 +18,10 @@ const routes = [
         name:'byLetter',
         component:()=>import(/*webpackChunkName: "byName"*/ '../src/views/MealsByLetter.vue')
     },{
+        path:'/ingredients',
+        name:'ingredients',
+        component:()=>import(/*webpackChunkName: "byName"*/ '../src/views/Ingredients.vue')
+    },{
         path:'/by-ingredient/:ingredient?',
         name:'byIngredient',
         component:()=>import(/*webpackChunkName: "byName"*/ '../src/views/MealsByIngredient.vue')
