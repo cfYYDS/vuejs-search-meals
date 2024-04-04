@@ -2,7 +2,7 @@ import {createRouter ,createWebHistory}from 'vue-router'
 import Home from '../src/views/Home.vue'
 const routes = [
     {
-        path:'/',
+        path:'/vuejs-search-meals',
         component:()=>import(/*webpackChunkName: "byName"*/ '../src/components/DefaultLayout.vue'),
         children:[
             {

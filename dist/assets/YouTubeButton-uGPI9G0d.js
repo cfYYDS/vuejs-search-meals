@@ -1,0 +1,1 @@
+import{o as t,c as o,p as s}from"./index-elsG-Nhm.js";const n=["href"],d={__name:"YouTubeButton",props:{href:String},setup(e){return(r,a)=>(t(),o("a",{href:e.href,target:"_blank",class:"px-3 py-2 rounded border-2 border-red-600 text-white bg-red-500 hover:bg-red-600 transition-colors"},[s(r.$slots,"default")],8,n))}};export{d as _};
